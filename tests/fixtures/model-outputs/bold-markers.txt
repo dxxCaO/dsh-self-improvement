@@ -1,0 +1,6 @@
+# expect: LESSONS,METHODS
+**LESSONS**
+- [2026-09-12T03:40:00.000Z] (lesson) 有的模型偏好加粗标记而非 Markdown 标题。 {origin:retro,imp:7}
+
+**METHODS**
+- [2026-09-12T03:40:00.000Z] (method) 排查界面与后端不一致 -> 直接请求 API 取原始返回逐项对比。 {origin:retro,imp:8}

@@ -1,0 +1,10 @@
+# expect: LESSONS,FACTS,HANDOFF
+## LESSONS
+- [2026-09-12T03:20:00.000Z] (lesson) 编辑文件前必须先 read，被拒后重读重试；同一文件的多处改动合并为一次 edit。 {origin:retro,imp:8}
+- [2026-09-12T03:20:00.000Z] (lesson) 网络受限环境下超时一次即切换 web_search，禁止 foreach retry。 {origin:retro,imp:7}
+
+## FACTS
+- [2026-09-12T03:20:00.000Z] (fact) 宿主为东八区时，插件历史时间戳为 UTC，显示差 8 小时、跨天差一天。 {origin:retro,imp:7}
+
+## HANDOFF
+本轮在排查面板范围显示问题；下一步应统一淘汰口径并按分数淘汰。

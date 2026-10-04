@@ -1,0 +1,9 @@
+# expect: LESSONS,FACTS,HANDOFF
+教训：
+- [2026-09-12T03:50:00.000Z] (lesson) 中文段落名也要能识别，否则中文模型输出会整份走兜底。 {origin:retro,imp:7}
+
+事实：
+- [2026-09-12T03:50:00.000Z] (fact) 该工作区的全局库位于 ${DSH_HOME}/self-improvement。 {origin:retro,imp:5}
+
+交接：
+等待人工确认是否采纳淘汰口径改动。

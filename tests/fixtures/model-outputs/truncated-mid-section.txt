@@ -1,0 +1,6 @@
+# expect: LESSONS
+## LESSONS
+- [2026-09-12T04:00:00.000Z] (lesson) 截断样本：最后一段几乎必然不完整，调用方应按保守规则丢弃。 {origin:retro,imp:7}
+
+## FACTSCLEAN
+- [2026-09-12T04:00:00.000Z] (fact) 这半截整文件重写段落

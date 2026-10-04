@@ -1,0 +1,54 @@
+{
+  "name": "dsh-self-improvement",
+  "version": "0.2.0",
+  "description": "DSH cross-session self-improvement: memory, error/session retrospectives, SOP extraction and improvement proposals",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "dxxCaO",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "self-improvement",
+    "memory",
+    "retrospective",
+    "agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxxCaO/dsh-self-improvement.git"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "scripts": {
+    "test": "node tests/smoke.mjs && node tests/contract.mjs && node tests/audit.mjs && node tests/audit-regressions.mjs && node tests/memory-regression.mjs && node tests/aux-effort.mjs && node tests/scope-visible.mjs && node tests/one-way-share.mjs && node tests/panel-scope.mjs && node tests/panel-render.mjs && node tests/parser-tolerance.mjs && node tests/search-and-evict.mjs && node tests/timestamps.mjs && node tests/volatility.mjs && node tests/debug-compact.mjs && node tests/debug-scope.mjs && node tests/debug-queue-race.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-store"
+      ]
+    }
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ]
+}

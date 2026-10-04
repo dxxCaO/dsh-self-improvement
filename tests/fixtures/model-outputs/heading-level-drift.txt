@@ -1,0 +1,9 @@
+# expect: LESSONS,FACTS,HANDOFF
+### LESSONS
+- [2026-09-12T03:30:00.000Z] (lesson) 三级标题是新一代模型常见的偏移，解析器必须容忍。 {origin:retro,imp:7}
+
+### FACTS
+- [2026-09-12T03:30:00.000Z] (fact) 同一份指令在不同模型下标题层级可能不同。 {origin:retro,imp:6}
+
+### HANDOFF
+继续验证检索相关性。

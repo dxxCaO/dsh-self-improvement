@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+self-improvement/
+state.json
+
+# 本地脱敏/自检工具（含个人标记，不进公开仓库）
+tools/
